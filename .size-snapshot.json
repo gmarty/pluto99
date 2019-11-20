@@ -1,0 +1,12 @@
+{
+  "dist/pluto99.js": {
+    "bundled": 45460,
+    "minified": 33595,
+    "gzipped": 13549
+  },
+  "dist/pluto99-wasm.js": {
+    "bundled": 45740,
+    "minified": 45041,
+    "gzipped": 26804
+  }
+}

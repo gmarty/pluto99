@@ -1,0 +1,39 @@
+{
+  "name": "pluto99",
+  "version": "1.0.0",
+  "description": "A fast implementation of the so-called pluto99 theory in JavaScript.",
+  "author": "G.C. Marty <edo999@gmail.com> (https://gu.illau.me)",
+  "keywords": [
+    "pluto99",
+    "Pluto",
+    "astronomy",
+    "planet"
+  ],
+  "license": "MIT",
+  "main": "dist/pluto99.js",
+  "module": "dist/pluto99.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/pluto99.js",
+    "dist/pluto99-wasm.js"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-wasm": "^3.0.0",
+    "mocha": "^6.2.2",
+    "prettier": "1.19.1",
+    "rollup": "^1.27.2",
+    "rollup-plugin-size-snapshot": "^0.10.0",
+    "rollup-plugin-terser": "^5.1.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prettier": "prettier --write \"{src,test}/**/*.js\"",
+    "build": "rollup --config"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "always",
+    "trailingComma": "es5"
+  }
+}
