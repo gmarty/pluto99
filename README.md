@@ -4,7 +4,7 @@
 
 # What?
 
-A JavaScript library to get the heliocentric rectangular coordinates of dwarf planet Pluto according to the "pluto99" theory.
+A JavaScript library to get the heliocentric rectangular coordinates of dwarf planet Pluto, at mean equinox and ecliptic J2000, according to the so-called "pluto99" theory.
 
 The JavaScript implementation is about 13.23 Kb (minified and gzipped).
 
@@ -94,8 +94,8 @@ $ yarn test
 
 With regards to the original terms, the following changes have been applied:
 
-- Convert phi from degrees to radians
-- Multiple Nu by 1,000 for consistency with the vsop87 theory
+- Converted phi from degrees to radians
+- Multiplied `Nu` by 1,000 for consistency with the VSOP87 theory
 
 # "So-called"?
 

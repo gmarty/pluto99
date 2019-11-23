@@ -7,7 +7,8 @@
     "pluto99",
     "Pluto",
     "astronomy",
-    "planet"
+    "planet",
+    "ephemeris"
   ],
   "license": "MIT",
   "main": "dist/pluto99.js",
